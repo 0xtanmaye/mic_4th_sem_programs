@@ -11,8 +11,8 @@ START:
         MOV DS, AX
 
         MOV AX, NUM1
-        MOV BX, NUM2
-        DIV BX
+        MOV CX, NUM2
+        DIV CX
         MOV RESULT, AX
 
         MOV AX, 4CH
