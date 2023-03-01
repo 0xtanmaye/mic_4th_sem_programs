@@ -15,7 +15,7 @@ START:
         ADD AX, BX
         MOV RESULT, AX
 
-        MOV AX, 4CH
+        MOV AH, 4CH
         INT 21H
 CODE ENDS
 END START
