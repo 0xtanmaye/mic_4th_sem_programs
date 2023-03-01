@@ -15,7 +15,7 @@ START:
         DIV CL
         MOV RESULT, AL
 
-        MOV AX, 4CH
+        MOV AH, 4CH
         INT 21H
 CODE ENDS
 END START
