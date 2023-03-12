@@ -1,6 +1,6 @@
 DATA SEGMENT
-NUM1 DB 25H
-NUM2 DB 28H
+NUM1 DB 25H ; if NUM1 = 50H
+NUM2 DB 28H ; and NUM2 = 55H then the resulting decimal value after addition would require more than 2 digits which will make DAA results unexpected 
 RESULT DB ?
 DATA ENDS
 
