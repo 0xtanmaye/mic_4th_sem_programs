@@ -1,6 +1,6 @@
 DATA SEGMENT
-NUM1 DB '5'
-NUM2 DB '2'
+NUM1 DB '5' 
+NUM2 DB '2' ; if instead of '2' we use '7' then the result of addition would be C i.e. in which case the only the lower nibble of AL is containing 2 and ah+=1
 RESULT DB ?
 DATA ENDS
 
