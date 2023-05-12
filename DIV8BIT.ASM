@@ -10,9 +10,10 @@ START:
         MOV AX, DATA
         MOV DS, AX
 
+        XOR AX, AX ;clear the ax register before division
         MOV AL, NUM1
-        MOV CL, NUM2
-        DIV CL
+        MOV BL, NUM2
+        DIV BL
         MOV RESULT, AL
 
         MOV AH, 4CH
